@@ -1,8 +1,13 @@
 ---
 # L027: This role has no meta/main.yml
 
-- command: echo "I am a broken role task"
+- name: Print a message
+  command: echo "I am a fixed role task"
 
-- name: do something risky in the role
+- name: Do something risky in the role
   shell: rm -rf /tmp/old_data/*
   become: true
+
+- name: Do something risky in the role
+  shell: rm -rf /tmp/old_data/*
+  noqa: R108

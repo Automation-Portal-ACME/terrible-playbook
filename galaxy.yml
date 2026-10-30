@@ -1,5 +1,9 @@
+---
+name: Terrible_playbook
 namespace: acme
-name: terrible_playbook
+tags:
+  - demo
+  - apme
 version: 1.0.0
 readme: README.md
 authors:
@@ -7,7 +11,4 @@ authors:
 description: Demo playbook repository for Ansible content modernization (portal org crawl)
 license:
   - GPL-2.0-or-later
-tags:
-  - demo
-  - apme
 repository: https://github.com/Automation-Portal-ACME/terrible-playbook
